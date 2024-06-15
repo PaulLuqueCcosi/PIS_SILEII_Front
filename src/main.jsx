@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from "react-router-dom";
 
 // Importaciones de estilos de fuentes
 import "@fontsource/roboto/300.css";
@@ -24,7 +24,7 @@ const Root = () => {
   );
 };
 
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById("root");
 const appRoot = createRoot(rootElement);
 
 try {
